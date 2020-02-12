@@ -17,7 +17,7 @@ namespace Roshambo
         public override Roshambo GenerateRoshambo()
         {
             Console.Write("\nRock, Paper, Scissor. Shoot! Enter your selection: ");
-            Roshambo choice = Enum.Parse<Roshambo>(Validator(Console.ReadLine()));
+            Roshambo choice = Enum.Parse<Roshambo>(Validator(Console.ReadLine().ToLower()));
             
             return choice;
         }
@@ -28,7 +28,7 @@ namespace Roshambo
             while (input != "rock" && input != "paper" && input != "scissors")
             {
                 Console.WriteLine("Make a valid selection: \nRock\tPaper\tScissors");
-                input = Console.ReadLine();
+                input = Console.ReadLine().ToLower();
             }
             choice = input;
             return choice;

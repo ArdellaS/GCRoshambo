@@ -16,7 +16,11 @@ namespace Roshambo
             do
             {
                 string level = GetString($"Welcome {player.Name} would you like to play against Glass Joe or Mike Tyson?").ToLower();
-                
+                while (level != "glass joe" && level != "glass" && level != "joe" && level != "mike tyson" && level != "mike" && level != "tyson")
+                {
+                    Console.WriteLine("Whoa there... Glass Joe or Mike Tyson");
+                    level = Console.ReadLine().ToLower();
+                }
                 if (level == "glass joe" || level == "glass" | level == "joe")
                 {
                     EasyMode(ref name);
@@ -26,6 +30,7 @@ namespace Roshambo
 
                     HardMode(ref name);
                 }
+
 
             } while (Continue());
             Console.WriteLine("Let's play again soon!");
