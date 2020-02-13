@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DShelton\\OneDrive - Knex\\Documents\\GCDevBuild\\GCRoshambo\\Roshambo\\Roshambo.csproj": {}
+    "C:\\Users\\DShelton\\OneDrive - KNEX\\Documents\\GCDevBuild\\GCRoshambo\\Roshambo\\Roshambo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DShelton\\OneDrive - Knex\\Documents\\GCDevBuild\\GCRoshambo\\Roshambo\\Roshambo.csproj": {
+    "C:\\Users\\DShelton\\OneDrive - KNEX\\Documents\\GCDevBuild\\GCRoshambo\\Roshambo\\Roshambo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DShelton\\OneDrive - Knex\\Documents\\GCDevBuild\\GCRoshambo\\Roshambo\\Roshambo.csproj",
+        "projectUniqueName": "C:\\Users\\DShelton\\OneDrive - KNEX\\Documents\\GCDevBuild\\GCRoshambo\\Roshambo\\Roshambo.csproj",
         "projectName": "Roshambo",
-        "projectPath": "C:\\Users\\DShelton\\OneDrive - Knex\\Documents\\GCDevBuild\\GCRoshambo\\Roshambo\\Roshambo.csproj",
+        "projectPath": "C:\\Users\\DShelton\\OneDrive - KNEX\\Documents\\GCDevBuild\\GCRoshambo\\Roshambo\\Roshambo.csproj",
         "packagesPath": "C:\\Users\\DShelton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DShelton\\OneDrive - Knex\\Documents\\GCDevBuild\\GCRoshambo\\Roshambo\\obj\\",
+        "outputPath": "C:\\Users\\DShelton\\OneDrive - KNEX\\Documents\\GCDevBuild\\GCRoshambo\\Roshambo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

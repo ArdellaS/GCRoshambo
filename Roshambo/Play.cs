@@ -49,15 +49,15 @@ namespace Roshambo
 
             if ((input == "rock" && opponent == "scissors") || (input == "scissors" && opponent == "paper") || (input == "paper" && opponent == "rock"))
             {
-                Console.WriteLine($"\n{player.Name} wins");
+                Console.WriteLine($"\n{player.Name} wins!");
             }
             else if ((opponent == "rock" && input == "scissors") || (opponent == "scissors" && input == "paper") || (opponent == "paper" && input == "rock"))
             {
-                Console.WriteLine($"\n{comp.Name} wins");
+                Console.WriteLine($"\n{comp.Name} wins!");
             }
             else if (input == opponent)
             {
-                Console.WriteLine("\nTie");
+                Console.WriteLine("\nHow exciting! It's a tie!");
             }
         }
         public void EasyMode(ref string name)
@@ -78,11 +78,11 @@ namespace Roshambo
             }
             else if (input == "scissors")
             {
-                Console.WriteLine($"\n{comp.Name} wins");
+                Console.WriteLine($"\n{comp.Name} wins!");
             }
             else if (input == "rock")
             {
-                Console.WriteLine("\nTie");
+                Console.WriteLine("\nHow exciting! It's a tie!");
             }
         }
 

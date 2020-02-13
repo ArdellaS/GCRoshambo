@@ -7,7 +7,7 @@ namespace Roshambo
         static void Main(string[] args)
         {
             Play game = new Play();
-            Console.WriteLine("To play Rock, Paper, Scissors, make a selection:");
+            Console.WriteLine("Before we get started, what's your name?");
             game.Start();
         }
     }
